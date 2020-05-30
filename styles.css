@@ -84,3 +84,19 @@ button {
 .box-3 p {
   font-weight: 400;
 }
+
+/* ================ Desktop Layout =================== */
+@media (min-width: 758px) {
+  .container {
+    width: 50%;
+    margin: 80px auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .box {
+    padding: 40px;
+  }
+  .box-2, .box-3 {
+    flex: 1;
+  }
+}
