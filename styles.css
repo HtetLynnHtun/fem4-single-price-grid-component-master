@@ -76,3 +76,11 @@ button {
   border-radius: 5px;
   border: none;
 }
+
+/* ========= box-3 styling ============= */
+.box-3 {
+  color: white;
+}
+.box-3 p {
+  font-weight: 400;
+}
