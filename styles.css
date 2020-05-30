@@ -7,6 +7,7 @@
 body {
   background-color: hsl(204, 43%, 93%);
   font-family: 'Karla', sans-serif;
+  font-weight: 700;
   line-height: 1.5;
 }
 
@@ -20,6 +21,10 @@ body {
 
 p {
   margin-bottom: 20px;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
 }
 
 /* ========= box styling ============== */
@@ -40,13 +45,34 @@ p {
 }
 
 /* ========== box-1 styling ==================*/
-h1 {
-  color: hsl(179, 62%, 43%);
-}
 .box-1 p:first-of-type {
   color: hsl(71, 73%, 54%);
-  font-weight: 700;
 }
 .box-1 p:last-of-type {
   color: hsl(218, 22%, 67%);
+}
+
+/* ========= box-2 styling ================== */
+.box-2 .heading {
+  color: #fff;
+}
+.box-2 p:first-of-type {
+  color: hsl(217, 32%, 78%);
+}
+.box-2 span {
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 3rem;
+}
+.box-2 p {
+  color: hsl(204, 43%, 93%);
+}
+button {
+  width: 100%;
+  padding: 15px;
+  color: #fff;
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 5px;
+  border: none;
 }
