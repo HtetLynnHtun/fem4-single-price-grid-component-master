@@ -7,6 +7,7 @@
 body {
   background-color: hsl(204, 43%, 93%);
   font-family: 'Karla', sans-serif;
+  line-height: 1.5;
 }
 
 .container {
@@ -17,6 +18,11 @@ body {
   flex-direction: column;
 }
 
+p {
+  margin-bottom: 20px;
+}
+
+/* ========= box styling ============== */
 .box {
   padding: 20px;
 }
@@ -28,4 +34,19 @@ body {
 }
 .box-3 {
   background-color: hsl(179,47%,51%);
+}
+.heading {
+  margin-bottom: 20px;
+}
+
+/* ========== box-1 styling ==================*/
+h1 {
+  color: hsl(179, 62%, 43%);
+}
+.box-1 p:first-of-type {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+}
+.box-1 p:last-of-type {
+  color: hsl(218, 22%, 67%);
 }
